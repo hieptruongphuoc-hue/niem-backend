@@ -1,0 +1,19 @@
+{
+  "name": "niem-backend",
+  "version": "1.0.0",
+  "description": "Backend cho web Niệm - tài khoản, đơn hàng, nạp/rút tiền, webhook SePay, hoa hồng giới thiệu",
+  "main": "src/server.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node src/server.js",
+    "migrate": "node src/migrate.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "pg": "^8.11.5",
+    "bcryptjs": "^2.4.3",
+    "jsonwebtoken": "^9.0.2",
+    "dotenv": "^16.4.5",
+    "cors": "^2.8.5"
+  }
+}
